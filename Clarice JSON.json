@@ -1,0 +1,419 @@
+﻿{
+        "name": "Princess Clarice VanHanson of Demons",
+        "isNamedCreature": true,
+        "source": "XandersHomebrewCreations",
+        "size": "M",
+        "type": {
+                "type": "fiend",
+                "tags": [
+                        "demon"
+                ]
+        },
+        "alignment": [
+                "N",
+                "G"
+        ],
+        "ac": [
+                {
+                        "ac": 20,
+                        "from": [
+                                "{@item half plate armor of lightning resistance}"
+                        ]
+                }
+        ],
+        "hp": {
+                "formula": "22d8 + 44",
+                "average": 143
+        },
+        "speed": {
+                "walk": 30
+        },
+        "str": 13,
+        "dex": 16,
+        "con": 15,
+        "int": 27,
+        "wis": 21,
+        "cha": 24,
+        "save": {
+                "int": "+15",
+                "wis": "+12",
+                "cha": "+14"
+        },
+        "skill": {
+                "arcana": "+22",
+                "history": "+15",
+                "insight": "+12",
+                "perception": "+12",
+                "investigation": "+15"
+        },
+        "senses": [
+                "truesight 120 ft."
+        ],
+        "passive": 22,
+        "languages": [
+                "Abyssal",
+                "Common",
+                "Dwarvish",
+                "Elvish",
+                "Halfling",
+                "Infernal",
+                "Primordial"
+        ],
+        "spellcasting": [
+                {
+                        "name": "Spellcasting",
+                        "headerEntries": [
+                                "Clarice is a 22nd-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Clarice has the following wizard spells prepared:"
+                        ],
+                        "footerEntries": [
+                                "10th level (1 slot): {@spell archmage armor|XHC}",
+                                "*Clarice casts these spells on herself before combat."
+                        ],
+                        "spells": {
+                                "0": {
+                                        "spells": [
+                                                "{@spell blade ward}",
+                                                "{@spell dancing lights}",
+                                                "{@spell mending}",
+                                                "{@spell message}",
+                                                "{@spell ray of frost}",
+                                                "{@spell toll the dead|XGE}"
+                                        ]
+                                },
+                                "1": {
+                                        "spells": [
+                                                "{@spell catapult|XGE}",
+                                                "{@spell mage armor}*",
+                                                "{@spell magic missile}",
+                                                "{@spell shield}"
+                                        ],
+                                        "slots": 5
+                                },
+                                "2": {
+                                        "spells": [
+                                                "{@spell blur}",
+                                                "{@spell heat metal}",
+                                                "{@spell hold person}",
+                                                "{@spell invisibility}"
+                                        ],
+                                        "slots": 4
+                                },
+                                "3": {
+                                        "spells": [
+                                                "{@spell bestow curse}",
+                                                "{@spell counterspell}",
+                                                "{@spell fireball}",
+                                                "{@spell slow}"
+                                        ],
+                                        "slots": 4
+                                },
+                                "4": {
+                                        "spells": [
+                                                "{@spell banishment}",
+                                                "{@spell death ward}*",
+                                                "{@spell stoneskin}*"
+                                        ],
+                                        "slots": 3
+                                },
+                                "5": {
+                                        "spells": [
+                                                "{@spell cloudkill}",
+                                                "{@spell cone of cold}",
+                                                "{@spell wall of force}"
+                                        ],
+                                        "slots": 3
+                                },
+                                "6": {
+                                        "spells": [
+                                                "{@spell disintegrate}",
+                                                "{@spell flesh to stone}",
+                                                "{@spell globe of invulnerability}"
+                                        ],
+                                        "slots": 2
+                                },
+                                "7": {
+                                        "spells": [
+                                                "{@spell plane shift}",
+                                                "{@spell teleport}"
+                                        ],
+                                        "slots": 2
+                                },
+                                "8": {
+                                        "spells": [
+                                                "{@spell dominate monster}",
+                                                "{@spell feeblemind}",
+                                                "{@spell maze}"
+                                        ],
+                                        "slots": 1
+                                },
+                                "9": {
+                                        "spells": [
+                                                "{@spell invulnerability|XGE}*",
+                                                "{@spell meteor swarm}",
+                                                "{@spell power word kill}"
+                                        ],
+                                        "slots": 1
+                                }
+                        },
+                        "ability": "int",
+                        "type": "spellcasting"
+                },
+                {
+                        "name": "Innate Spellcasting",
+                        "headerEntries": [
+                                "Clarice's spellcasting ability is Charisma (spell save {@dc 22}, {@hit 14} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+                        ],
+                        "will": [
+                                "{@spell blindness/deafness}",
+                                "{@spell detect magic}",
+                                "{@spell ray of enfeeblement}",
+                                "{@spell ray of sickness}",
+                                "{@spell Tasha's hideous laughter}"
+                        ],
+                        "daily": {
+                                "3e": [
+                                        "{@spell contagion}",
+                                        "{@spell dispel magic}",
+                                        "{@spell hold monster}"
+                                ],
+                                "1e": [
+                                        "{@spell feeblemind}",
+                                        "{@spell flesh to stone}",
+                                        "{@spell time ravage|EGW}"
+                                ]
+                        },
+                        "ability": "cha",
+                        "type": "spellcasting"
+                }
+        ],
+        "senseTags": [
+                "U"
+        ],
+        "languageTags": [
+                "AB",
+                "C",
+                "D",
+                "E",
+                "H",
+                "I",
+                "P"
+        ],
+        "damageTags": [
+                "P",
+                "N",
+                "S",
+                "O"
+        ],
+        "spellcastingTags": [
+                "CW",
+                "I"
+        ],
+        "conditionInflictSpell": [
+                "blinded",
+                "paralyzed",
+                "petrified",
+                "restrained",
+                "unconscious"
+        ],
+        "hasFluff": true,
+        "hasFluffImages": true,
+        "fluff": {
+                "entries": [
+                        {
+                                "type": "entries",
+                                "entries": [
+                                        {
+                                                "type": "entries",
+                                                "entries": [
+                                                        {
+                                                                "type": "entries",
+                                                                "name": "Clarice VanHanson",
+                                                                "entries": [
+                                                                        "Clarice was once a lowly drow magic item craftsman. This all changed the day Orcus found her as having potential in the magical arts. Orcus took control over her mind and body, shaping her into “The Necromancer”.",
+                                                                        "As the Necromancer, Clarice grew an army of undead near the small city of Landor. She did this for two reasons. One was that there was a flourishing magic item shop in the town with priceless artifacts and which she planned to steal. The other was that perhaps the only people who could snuff out her plans lived there.",
+                                                                        "Eventually, snuff out her plans they did. They killed her in her own throne room in a floating castle in the demiplane, “Realm of the Hills”. One of the party members remembered a prophesy he had heard, so he revived Clarice, breaking her mental binds to Orcus. Clarice, thankful for this, and horrified at the atrocities she had committed, vowed to join the party and help fix what she had done. Eventually, she defeated Orcus.",
+                                                                        "After many days, Clarice and her party were knighted by the king of Aureena for their noble deeds. Soon after, the party defeated Demogorgon, Prince of Demons, and Clarice was crowned the Princess of Demons, gaining control over the Abyss and the Gaping Maw. Clarice then grew new features such as claws, sharp teeth, horns, and a forked tail.",
+                                                                        "To this day Clarice, Alstor, Surge, and Caroline venture the planescape, defeating evil wherever they find it."
+                                                                ]
+                                                        }
+                                                ]
+                                        },
+                                        {
+                                                "type": "entries",
+                                                "name": "Clarice's Lair",
+                                                "entries": [
+                                                        "Clarice’s lair lies within the city of Landor in the Kingdom and Island of Aureena. The lair is one of her previous floating castles, now no longer floating. The looming castle is an immediate eye catcher for anyone within a few miles of Landor. Nearby the castle is a smaller keep, which houses Clarice’s adventuring friends."
+                                                ]
+                                        }
+                                ]
+                        },
+                        {
+                                "type": "entries",
+                                "entries": [
+                                        {
+                                                "type": "entries",
+                                                "name": "Lair Actions",
+                                                "entries": [
+                                                        "On Initiative count 20 (losing initiative ties), Clarice can take a lair action to cause one of the following effects; she can't use the same effect two rounds in a row:",
+                                                        {
+                                                                "type": "list",
+                                                                "items": [
+                                                                        "Fraz-Urb'luu causes up to 5 doors within the lair to become walls, and an equal number of doors to appear on walls where there previously were none.",
+                                                                        "Fraz-Urb'luu chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the {@spell simulacrum} spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on the next initiative count 20.",
+                                                                        "Fraz-Urb'luu creates a wave of anguish. Each creature he can see within the lair must succeed on a {@dc 23} Wisdom saving throw or take 33 ({@damage 6d10}) psychic damage."
+                                                                ]
+                                                        }
+                                                ]
+                                        }
+                                ]
+                        },
+                        {
+                                "type": "entries",
+                                "entries": [
+                                        {
+                                                "type": "entries",
+                                                "name": "Regional Effects",
+                                                "entries": [
+                                                        "The region containing Fraz-Urb'luu's lair is warped by his magic, creating one or more of the following effects:",
+                                                        {
+                                                                "type": "list",
+                                                                "items": [
+                                                                        "Intelligent creatures within 1 mile of the lair frequently see hallucinations of long-dead friends and comrades that vanish after only a brief glimpse.",
+                                                                        "Roads and paths within 6 miles of the lair twist and turn back on themselves, making navigation in the area exceedingly difficult.",
+                                                                        "If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a {@dc 23} Wisdom saving throw or descend into a madness determined by the Madness of Fraz-Urb'luu table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
+                                                                ]
+                                                        },
+                                                        "If Fraz-Urb'luu dies, these effects fade over the course of {@dice 1d10} days.",
+                                                        {
+                                                                "type": "entries",
+                                                                "name": "Madness of Fraz-Urb'luu",
+                                                                "entries": [
+                                                                        "If a creature goes mad in Fraz-Urb'luu's lair or within line of sight of the demon lord, roll on the Madness of Fraz-Urb'luu table to determine the nature of the madness, which is a character flaw that lasts until cured. See the {@book Dungeon Master's Guide|dmg|8|madness} for more on madness.",
+                                                                        {
+                                                                                "type": "table",
+                                                                                "caption": "Madness of Fraz-Urb'luu",
+                                                                                "colLabels": [
+                                                                                        "d100",
+                                                                                        "Flaw (lasts until cured)"
+                                                                                ],
+                                                                                "colStyles": [
+                                                                                        "col-1",
+                                                                                        "col-11"
+                                                                                ],
+                                                                                "rows": [
+                                                                                        [
+                                                                                                "01–20",
+                                                                                                "\"I never let anyone know the truth about my actions or intentions, even if doing so would be beneficial to me.\""
+                                                                                        ],
+                                                                                        [
+                                                                                                "21–40",
+                                                                                                "\"I have intermittent hallucinations and fits of catatonia.\""
+                                                                                        ],
+                                                                                        [
+                                                                                                "41–60",
+                                                                                                "\"My mind wanders as I have elaborate fantasies that have no bearing on reality. When I return my focus to the world, I have a hard time remembering that it was just a daydream.\""
+                                                                                        ],
+                                                                                        [
+                                                                                                "61–80",
+                                                                                                "\"I convince myself that things are true, even in the face of overwhelming evidence to the contrary.\""
+                                                                                        ],
+                                                                                        [
+                                                                                                "81–00",
+                                                                                                "\"My perception of reality doesn't match anyone else's. It makes me prone to violent delusions that make no sense to anyone else.\""
+                                                                                        ]
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ]
+                                        }
+                                ]
+                        }
+                ],
+                "images": [
+                        {
+                                "type": "image",
+                                "href": {
+                                        "type": "external",
+                                        "url": "https://i.pinimg.com/564x/cf/19/05/cf1905a89d84cd562892a3c297d8130d.jpg"
+                                }
+                        }
+                ]
+        },
+        "level": 22,
+        "shortName": "Clarice",
+        "resist": [
+                "lightning"
+        ],
+        "isNpc": true,
+        "trait": [
+                {
+                        "name": "Superior Spells",
+                        "entries": [
+                                "The damage of any spell Clarice casts of 7th level or lower is maxed."
+                        ]
+                },
+                {
+                        "name": "Demonic Control",
+                        "entries": [
+                                "While a demon of CR 21 or lower is on the same plane as Clarice, she havs absolute control over it as if she had casted dominate monster on it. There is no saving throw, the effect lasts until the creature is out of range, and creatures that can’t be {@condition charmed} are not immune to this effect."
+                        ]
+                },
+                {
+                        "name": "Magic Resistance",
+                        "entries": [
+                                "Clarice has advantage on saving throws against spells and other magical effects."
+                        ]
+                },
+                {
+                        "name": "Magic Weapons",
+                        "entries": [
+                                "Clarice's weapon attacks are magical."
+                        ]
+                },
+                {
+                        "name": "Legendary Resistance (3/Day)",
+                        "entries": [
+                                "If Clarice fails a saving throw, she can choose to succeed instead."
+                        ]
+                }
+        ],
+        "traitTags": [
+                "Legendary Resistances",
+                "Magic Resistance",
+                "Magic Weapons"
+        ],
+        "action": [
+                {
+                        "name": "Multiattack",
+                        "entries": [
+                                "Clarice makes two Claw attacks."
+                        ]
+                },
+                {
+                        "name": "Bite",
+                        "entries": [
+                                "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, plus 17 ({@damage 5d6}) necrotic damage. Clarice then regains hit points equal to half the amount of necrotic damage dealt to the target."
+                        ]
+                },
+                {
+                        "name": "Claw",
+                        "entries": [
+                                "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage."
+                        ]
+                },
+                {
+                        "name": "Arcane Fire (3/Day)",
+                        "entries": [
+                                "{@atk s} {@hit 15} to hit, range 60 ft., one target. Clarice expends one spell slot. (5 times expended spell slot)d8 + 8 force damage."
+                        ]
+                }
+        ],
+        "miscTags": [
+                "MW"
+        ],
+        "actionTags": [
+                "Multiattack"
+        ],
+        "cr": "22"
+}
